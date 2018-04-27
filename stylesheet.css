@@ -92,6 +92,25 @@ form {
   flex-direction: row;
 }
 
+
 #FirstQ, #SecondQ, #ThirdQ, #FourthQ, #FifthQ, #SixthQ, #SeventhQ, #EighthQ, #NinthQ {
-  margin: 100px;
+  padding: 10px;
+  flex-direction: row;
+  margin: 0 auto;
+  align-content: baseline;
+}
+
+.third thirdthree {
+  padding: 10px;
+  flex-direction: row;
+  margin: 0 auto;
+  align-content: baseline;
+}
+
+#EighthQ {
+  padding: 10px;
+}
+
+#TenthQ {
+  margin: 0 auto;
 }
