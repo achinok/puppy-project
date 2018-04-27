@@ -1,0 +1,97 @@
+body {
+  background-image: url(images/park.jpg);
+  color: white;
+}
+
+img {
+  opacity: 1.0;
+}
+
+header {
+  display: flex;
+  height: 200px;
+  background-color: white;
+}
+
+img.logo {
+  width: 200px;
+  float: left;
+  position: absolute;
+}
+
+img.bone {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#homeheadertext {
+  position: absolute;
+  align-self: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: green;
+}
+
+.title:visited {
+  color: green;
+}
+
+a {
+  text-align: center;
+  color:
+}
+
+#search_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#petsnearyou {
+  padding-top: 75px;
+}
+
+.clicks {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.pageheader:visited {
+  color: white;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.healthydog {
+  width: 300px;
+  height: 300px;
+}
+
+.founders {
+  width: 300px;
+  height: 300px;
+}
+
+.testimonials {
+  width: 300px;
+  height: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+}
+
+#FirstQ, #SecondQ, #ThirdQ, #FourthQ, #FifthQ, #SixthQ, #SeventhQ, #EighthQ, #NinthQ {
+  margin: 100px;
+}
